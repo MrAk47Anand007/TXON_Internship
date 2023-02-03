@@ -9,61 +9,159 @@
     <link rel="stylesheet" href="style.css">
     <title>Cyber Cafe</title>
 </head>
-<body class="overflow-hidden">
+<body class="overflow-x-hidden scrollbar-hide">
 <div class="container mx-auto">
     <header>
-        <nav class="flex justify-between">
+        <nav class="flex justify-between new-nav">
             <div class="font-bold flex items-center text-blue">
-            Cyber cafe
+                Cyber cafe
             </div>
             <ul class="navbar flex items-center">
                 <li>Home</li>
                 <li>Services</li>
                 <li>About</li>
                 <li>Contact Us</li>
-                <li><button class="btn">Explore</button></li>
+                <li>
+                    <button class="btn">Explore</button>
+                </li>
 
             </ul>
         </nav>
-        <hr>
+
     </header>
     <main class="min-h-screen">
         <section class="section1">
             <div class="flex">
-            <div class="topLeft flex flex-col  px-2">
-                <div class="text-center">
-                    <img class="img img-size" src="cyber3.png">
-                </div>
+                <div class="topLeft flex flex-col  px-2">
+                    <div class="text-center">
+                        <img class="img img-size" src="cyber3.png" alt="">
+                    </div>
 
-                <h1 class="my-1 text-center">
-                    New Cyber cafe in City
-                </h1>
-                <p class="text-center">
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Donec blandit ipsum nec tortor
-                    pellentesque egestas. Quisque tellus ex,
-                    hendrerit ac rhoncus sit amet, suscipit eget
-                    turpis. Orci varius natoque penatibus et magnis
-                    dis parturient montes, nascetur ridiculus mus.
-                    Phasellus pulvinar, urna sit amet vestibulum maximus,
-                    mauris nibh volutpat erat, amet nulla.
-                </p>
-            </div>
-            <div class="topRight">
-                <img class="img justify-center items-center" src="cyber2.png" alt="">
-            </div>
+                    <h1 class="my-1 text-center">
+                        New Cyber cafe in City
+                    </h1>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Donec blandit ipsum nec tortor
+                        pellentesque egestas. Quisque tellus ex,
+                        hendrerit ac rhoncus sit amet, suscipit eget
+                        turpis. Orci varius natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus mus.
+                        Phasellus pulvinar, urna sit amet vestibulum maximus,
+                        mauris nibh volutpat erat, amet nulla.
+                    </p>
+                </div>
+                <div class="topRight">
+                    <img class="img justify-center items-center" src="cyber2.png" alt="">
+                </div>
             </div>
         </section>
-        <hr>
-        <section></section>
-        <hr>
-        <section></section>
+        <section class="section2">
+            <h1 class="text-center justify-center my-1 flex">Pricing</h1>
+            <p class="text-center justify-center flex flex-col my-2">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+                Donec blandit ipsum nec tortor
+                pellentesque egestas. Quisque tellus ex,
+                hendrerit ac rhoncus sit amet, suscipit eget
+                turpis.
+            </p>
+            <div class="boxes flex">
+                <div class="box flex flex-col">
+                    <h2>Starter</h2>
+                    <ul>
+                        <li>$1/Per Day</li>
+                        <li>1HR Surfing</li>
+                        <li>Clean Environment</li>
+                        <li>256GB Local Storage</li>
+                        <li>0GB Cloud Storage</li>
+                        <li>
+                            <button class="btn">Check Now</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box flex flex-col">
+                    <h2>Pro</h2>
+                    <ul>
+                        <li>$5/Per Day</li>
+                        <li>5HR Surfing</li>
+                        <li>Clean Environment</li>
+                        <li>512GB Local Storage</li>
+                        <li>128GB Cloud Storage</li>
+                        <li>
+                            <button class="btn">Check Now</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box flex flex-col">
+                    <h2>Ultra</h2>
+                    <ul>
+                        <li>$10/Per Day</li>
+                        <li>10HR Surfing</li>
+                        <li>Clean Environment</li>
+                        <li>1TB Local Storage</li>
+                        <li>256GB Cloud Storage</li>
+                        <li>
+                            <button class="btn">Check Now</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <h1 class="text-center my-1">Compare Plans</h1>
+            <div class="flex items-center justify-center">
+                <table class="styled-table rounded_corner">
+                    <thead>
+                    <tr>
+                        <th>Plans</th>
+                        <th>Price</th>
+                        <th>Time</th>
+                        <th>Local Storage</th>
+                        <th>Cloud Storage</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Starter</td>
+                        <td>$1/PerDay</td>
+                        <td>1HR</td>
+                        <td>256GB</td>
+                        <td>0GB</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>Pro</td>
+                        <td>$5/PerDay</td>
+                        <td>5HR</td>
+                        <td>512GB</td>
+                        <td>128GB</td>
+                    </tr>
+                    <tr>
+                        <td>Ultra</td>
+                        <td>$10/PerDay</td>
+                        <td>10HR</td>
+                        <td>1TB</td>
+                        <td>256GB</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <hr>
 
     </main>
     <footer>
-        this is the footer.
+        <p>Copyright &copy;2023 <a href="#">CyberCafe</a>  </p>
+        <div class="footer-menu">
+            <ul class="footer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
     </footer>
 </div>
 </body>
