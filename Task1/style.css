@@ -17,3 +17,31 @@
     list-style: none;
     margin: 0 12px;
 }
+.topLeft{
+    width: 50%;
+    padding-top: 30px;
+
+}
+.topRight{
+    width: 50%;
+
+}
+.section1{
+    height: 50vh;
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid white;
+    border-radius: 11px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.img-size{
+    width: 150px;
+}
