@@ -64,7 +64,7 @@ body {
     display: flex;
 }
 
-#userText {
+.inputText {
     box-sizing: border-box;
     width: 90%;
     padding: 10px 20px;
@@ -91,7 +91,17 @@ body {
     opacity: 1;
     pointer-events: all;
 }
-.btn {
+.editbtn {
+    padding: 1px 26px 1px 26px;
+    height: 57px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin-top: 1px;
+    background: #8bb8af;
+    cursor: pointer;
+}
+.delbtn {
     padding: 1px 26px 1px 26px;
     height: 57px;
     border-radius: 2px;
